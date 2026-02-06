@@ -33,6 +33,12 @@ customers.shift();
 //Step 4: Updating Customer Data
 
 customers[1].email = "pandas@gmail.com",
-customers[0].purchases.push("Hot Brownie")
+customers[0].purchases.push("Hot Brownie"),
 
 console.log(customers);
+
+//Step 5: Display Customer Information
+
+customers.forEach(customer => {
+    console.log(`Customer Name: ${customer.name}, Email: ${customer.email}, Purchases: ${customer.purchases.length}`);
+})
