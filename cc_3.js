@@ -40,5 +40,5 @@ console.log(customers);
 //Step 5: Display Customer Information
 
 customers.forEach(customer => {
-    console.log(`Customer Name: ${customer.name}, Email: ${customer.email}, Purchases: ${customer.purchases.length}`);
+    console.log(`Customer Name: ${customer.name}, Email: ${customer.email}, Total Purchases: ${customer.purchases.length}`);
 })
