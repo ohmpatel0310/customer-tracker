@@ -30,4 +30,9 @@ customers.push({
 
 customers.shift();
 
+//Step 4: Updating Customer Data
+
+customers[1].email = "pandas@gmail.com",
+customers[0].purchases.push("Hot Brownie")
+
 console.log(customers);
