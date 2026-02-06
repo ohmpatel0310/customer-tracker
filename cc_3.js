@@ -25,7 +25,7 @@ let customers = [
 customers.push({
     name: "Five Guys",
     email: "fiveguys@gmail.com",
-    purchases: "Brownie for Guys",
+    purchases: ["Brownie for Guys"],
 })
 
 customers.shift();
